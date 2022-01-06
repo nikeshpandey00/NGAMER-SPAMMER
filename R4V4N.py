@@ -729,7 +729,7 @@ async def start_r4v4n():
 
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_rizoel())       
+loop.run_until_complete(start_R4V4N())       
 
 async def gifspam(e, smex):
     try:
@@ -1296,16 +1296,16 @@ async def spam(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        R4V4N = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(rizoel) == 2:
-            message = str(rizoel[1])
+        if len(R4V4N) == 2:
+            message = str(R4V4N[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(rizoel[0])
+            counter = int(R4V4N[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -1317,7 +1317,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(rizoel[0])
+            counter = int(R4V4N[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(RAID)
@@ -1407,10 +1407,10 @@ async def _(e):
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        R4V4N = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(e.text) > 11:
-            message = str(rizoel[0])
+            message = str(R4V4N[0])
             a = await e.client.get_entity(message)
             g = a.id
             que[g] = []
