@@ -77,7 +77,7 @@ SMEX_USERS = []
 for x in SUDO: 
     SMEX_USERS.append(x)
     
-async def start_r4v4n():
+async def start_R4V4N():
     global idk
     global ydk
     global wdk
