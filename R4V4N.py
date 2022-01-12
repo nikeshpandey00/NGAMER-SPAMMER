@@ -1629,7 +1629,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "⚜️𝐂𝐌𝐃'𝐒 𝐈𝐍 𝐑𝟒𝐕𝟒𝐍 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓⚜️\n\n🔰𝐔𝐓𝐈𝐋𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰\n.ping\n.restart\n\n🔰𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰:\n.bio\n.join\n.leave\n.pjoin\n.pleave\n\n🔰𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰:\n.spam\n.delayspam\n.bigspam\n.raid\nn\nFor more help regarding usage of plugins type plugins name"
+       text = "⚜️𝐂𝐌𝐃'𝐒 𝐈𝐍 𝐍𝐆𝐀𝐌𝐄𝐑 𝐒𝐏𝐀𝐌𝐌𝐄𝐑⚜️\n\n🔰𝐔𝐓𝐈𝐋𝐒 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰\n.ping\n.restart\n\n🔰𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰:\n.bio\n.join\n.leave\n.pjoin\n.pleave\n\n🔰𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃🔰:\n.spam\n.delayspam\n.bigspam\n.raid\nn\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
 
@@ -1644,7 +1644,7 @@ text = """
 
 print(text)
 print("")
-print("SMEX! 𝐑𝟒𝐕𝟒𝐍 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 Started Sucessfully.")
+print("SMEX! 𝐍𝐆𝐀𝐌𝐄𝐑 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓 Started Sucessfully.")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
